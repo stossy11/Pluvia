@@ -23,7 +23,7 @@ Limitations
 
 How to use Pluviana
 =================
-1) Creating the patched IPSW
+1) Creating the patched IPSW (if it gets stuck just re do it)
 
 Run ./make_ipsw.sh <Input_IPSW> jailbreak (if you want to jailbreak)
 
