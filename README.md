@@ -6,7 +6,7 @@ You need Python 2 that you can get from here https://www.python.org/downloads/re
 
 What is Pluviana?
 ===============
-Pluviana allows you to untethered downgrade your iPhone 4 without SHSH blobs and it is an newly maintained version of Pulvia!
+Pluviana allows you to untethered downgrade your iPhone 4 without SHSH blobs and it is an newly maintained version of Pluvia!
 
 It uses the iOS 7.1.2 iBoot exploit "De Rebus Antiquis" by @xerub and @dora2-iOS.
 
@@ -50,7 +50,7 @@ Credits
 =======
 @stossy11 (me) for fixing this project for macOS 12.3+
 
-@parrotgeek1 for this project
+@parrotgeek1 for the base of this project named Pluvia.
 
 @xerub for De Rebus Antiquis iBoot exploit
 
