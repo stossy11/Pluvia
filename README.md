@@ -4,9 +4,9 @@ Important Notice
 You need Python 2 that you can get from here https://www.python.org/downloads/release/python-2718/ now supported with macOS 12.3+
 
 
-What is Pluvia v2?
+What is Pluviana?
 ===============
-Pluvia v2 allows you to untethered downgrade your iPhone 4 without SHSH blobs!
+Pluviana allows you to untethered downgrade your iPhone 4 without SHSH blobs and it is an newly maintained version of Pulvia!
 
 It uses the iOS 7.1.2 iBoot exploit "De Rebus Antiquis" by @xerub and @dora2-iOS.
 
@@ -20,7 +20,7 @@ Limitations
 
 **NOTE: 8GB iPhone 4's that shipped with iOS 6 can only run iOS 6 and newer, NOT iOS 4 or 5. This almost certainly can't be fixed.**
 
-How to use Pluvia v2
+How to use Pluviana
 =================
 1) Creating the patched IPSW
 
@@ -82,9 +82,9 @@ libusb and pyusb
 
 Licensing notes
 ===============
-The ParrotGeek Software logo shown during the restore process is NOT licensed under the GPL and must be removed in any publicly released modifications of this project.
+The Stossy11  logo shown during the restore process is The Stossy11 logo shown during the restore process is inspired by the game "Minecraft" and is NOT licensed under the GPL license so in any modified release of this you must remove the logo and if Microsoft want to take it down they can.
 
-Furthermore, any publicly released modifications of this project must not use the word Pluvia anywhere in their name, or purport to be endorsed by ParrotGeek Software.
+Furthermore, any publicly released modifications of this project must not use the word Pluviana anywhere in their name, or purport to be endorsed by Stossy11.
 
 The code and files created by @dora2-iOS are licensed under the GPLv3 or the MIT License, and were present in commit 316d2cdc5351c918e9db9650247b91632af3f11f of https://github.com/dora2-iOS/ch3rryflower, and commits 06262f41d0677feec0f03ff2f0496d63898a346f and 26cb118bde7ad0198df08a2b0af9f319c0de511c of https://github.com/dora2-iOS/s0meiyoshino, which no longer exist publicly.
 
