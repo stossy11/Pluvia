@@ -1,11 +1,12 @@
 Important Notice
 ================
 
-Development of Pluvia is now discontinued, and no support is available for it. It is not compatible with macOS 12.3 Monterey or newer versions.
+You need Python 2 that you can get from here https://www.python.org/downloads/release/python-2718/ now supported with macOS 12.3+
 
-What is Pluvia?
+
+What is Pluvia v2?
 ===============
-Pluvia allows you to untethered downgrade your iPhone 4 without SHSH blobs!
+Pluvia v2 allows you to untethered downgrade your iPhone 4 without SHSH blobs!
 
 It uses the iOS 7.1.2 iBoot exploit "De Rebus Antiquis" by @xerub and @dora2-iOS.
 
@@ -19,7 +20,7 @@ Limitations
 
 **NOTE: 8GB iPhone 4's that shipped with iOS 6 can only run iOS 6 and newer, NOT iOS 4 or 5. This almost certainly can't be fixed.**
 
-How to use Pluvia
+How to use Pluvia v2
 =================
 1) Creating the patched IPSW
 
@@ -47,6 +48,10 @@ Run ./restore.sh <Reset_NVRAM_IPSW>
 
 Credits
 =======
+@stossy11 (me) for fixing this project for macOS 12.3+
+
+@parrotgeek1 for this project
+
 @xerub for De Rebus Antiquis iBoot exploit
 
 @dora2-iOS for ramdiskH.dmg, part of the partitioning script in the ramdisk, the binaries in the ramdisk (which are likely from Cydia packages), and the firmware bundles
