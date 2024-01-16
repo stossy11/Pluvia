@@ -12,8 +12,8 @@ It uses the iOS 7.1.2 iBoot exploit "De Rebus Antiquis" by @xerub and @dora2-iOS
 
 Limitations
 ===========
-* Only for Mac!
-* Only supports iPhone3,1.
+* Only for Mac (macOS 10.11+)!
+* Only supports iPhone3,1 (iPhone 4 GSM).
   - Support for iPhone3,2 and 3,3 is not easily possible because the iBoot exploit utilized by Pluvia has not been ported to those devices, and there is almost no documentation of how to do so.
 * Only supports iOS 5.1.1 (9B206), 6.x, and 7.x.
 * Can only jailbreak iOS 5.1.1 and 6.1.3
