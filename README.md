@@ -13,7 +13,7 @@ It uses the iOS 7.1.2 iBoot exploit "De Rebus Antiquis" by @xerub and @dora2-iOS
 Limitations
 ===========
 * Needs Python 2
-* Only for Mac (macOS 10.11+)!
+* Only for Mac (macOS 10.11+ could work with 10.9+)!
 * Only supports iPhone3,1 (iPhone 4 GSM).
   - Support for iPhone3,2 and 3,3 is not easily possible because the iBoot exploit utilized by Pluvia has not been ported to those devices, and there is almost no documentation of how to do so.
 * Only supports iOS 5.1.1 (9B206), 6.x, and 7.x.
