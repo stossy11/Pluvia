@@ -23,17 +23,23 @@ Limitations
 
 How to use Pluviana
 =================
-1) Creating the patched IPSW (if it gets stuck just re do it)
+1) Create the patched IPSW and Restore Automatically
+
+Run ./restore.sh <Input_IPSW> jailbreak (if you want to jailbreak)
+
+or ./restore.sh <Input_IPSW> (if you don't want to jailbreak)
+
+3) (Do these if that doesnt work) Creating the patched IPSW (if it gets stuck just re do it)
 
 Run ./make_ipsw.sh <Input_IPSW> jailbreak (if you want to jailbreak)
 
 Or run ./make_ipsw.sh <Input_IPSW> (if you don't want to jailbreak)
 
-2) Restoring the firmware
+3) Restoring the firmware
 
 Connect your iPhone 4 and put it in DFU mode.
 
-Run ./restore.sh <Patched_IPSW>
+Run ./restore_only.sh <Patched_IPSW>
 
 Wait for that to complete.
 
