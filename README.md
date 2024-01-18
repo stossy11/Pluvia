@@ -35,6 +35,25 @@ or ./restore.sh <Input_IPSW> (if you don't want to jailbreak)
 
 When your phone reboots the Apple logo should blink and then it will boot the older iOS!
 
+or if that fails 
+
+1) Creating the patched IPSW
+
+Run ./make_ipsw_only.sh <Input_IPSW> jailbreak (if you want to jailbreak)
+
+Or run ./make_ipsw_only.sh <Input_IPSW> (if you don't want to jailbreak)
+
+2) Restoring the firmware
+
+Connect your iPhone 4 and put it in DFU mode.
+
+Run ./restore_only.sh <Patched_IPSW>
+
+Wait for that to complete.
+
+When your phone reboots the Apple logo should blink and then it will boot the older iOS!
+
+
 Getting out of recovery mode after restoring to stock iOS
 =========================================================
 Run ./make_ipsw.sh <Any_Supported_Input_IPSW> reset
