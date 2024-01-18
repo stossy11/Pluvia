@@ -56,15 +56,14 @@ When your phone reboots the Apple logo should blink and then it will boot the ol
 
 Getting out of recovery mode after restoring to stock iOS
 =========================================================
-Run ./make_ipsw.sh <Any_Supported_Input_IPSW> reset
-
 Connect your iPhone 4 and put it in DFU mode.
 
-Run ./restore.sh <Reset_NVRAM_IPSW>
+Run ./restore.sh <Any_Supported_Input_IPSW> reset
+
 
 Credits
 =======
-@stossy11 (me) for fixing this project for macOS 12.3+
+@stossy11 (me) for fixing this project for macOS 12.3+ and making an easer install process (soon to be app)
 
 @parrotgeek1 for the base of this project named Pluvia.
 
