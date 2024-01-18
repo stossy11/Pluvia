@@ -25,11 +25,13 @@ How to use Pluviana
 =================
 Connect your iPhone 4 and put it in DFU mode.
 
+**NO SPACES IN THE FOLDER WITH THE IPSW**
+
 1) Create the patched IPSW and Restore Automatically
 
 Run ./restore.sh <Input_IPSW> jailbreak (if you want to jailbreak)
 
-or ./restore.sh <Input_IPSW> (if you don't want to jailbreak)
+or ./restore.sh <Input_IPSW> (if you don't want to jailbreak) 
 
 When your phone reboots the Apple logo should blink and then it will boot the older iOS!
 
