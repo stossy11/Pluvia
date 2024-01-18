@@ -35,7 +35,8 @@ or ./restore.sh <Input_IPSW> (if you don't want to jailbreak)
 
 When your phone reboots the Apple logo should blink and then it will boot the older iOS!
 
-or if that fails 
+**or if that fails**
+=================
 
 1) Creating the patched IPSW
 
