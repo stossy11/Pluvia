@@ -1,6 +1,8 @@
 Important Notice
 ================
 
+**CHECK RELEASES YOU DONT NEED TO USE THE OTHER SCRIPTS UNLESS YOU WANT TO**
+
 You need Python 2 that you can get from here https://www.python.org/downloads/release/python-2718/ 
 
 
@@ -23,6 +25,7 @@ Limitations
 
 How to use Pluviana
 =================
+
 Connect your iPhone 4 and put it in DFU mode.
 
 **NO SPACES IN THE FOLDER WITH THE IPSW**
