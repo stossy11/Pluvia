@@ -70,7 +70,6 @@ _canonicalize_file_path() {
 
 usage() {
 	echo "Usage: $1 <input.ipsw> [jailbreak | reset]"
-    exit 1
 }
 
 if [ "x$1" = "x" ]; then
@@ -88,4 +87,7 @@ if [ ! -f "$1" ] ; then
 	exit 1
 fi
 
-./scripts/createIPSWonly.sh $1 $2
+cd "$(dirname "$0")"
+for i in scripts/*.sh; do
+	bash -e $i "`realpath "$1"`" "$2" || exit $?
+done

@@ -1,6 +1,6 @@
 #!/bin/bash -e
 if [ "x$2" = "xreset" ] ; then
-echo "Thank you for using Pulviana, Creating NVRAM reset IPSW (this will take several minutes)"
+echo "Creating NVRAM reset IPSW (this will take several minutes)"
 ./tools/ipsw "$1" work/tmp.ipsw -ramdiskgrow 1500 >/dev/null
 cd work
 else
@@ -91,6 +91,4 @@ iname="`echo "$1" | sed "s/\.ipsw$/_$name.ipsw/"`"
 rm -rf "$iname"
 mv tmp.ipsw "$iname"
 rm -f bcfg build ptype pvers rramdisk sysimg
-echo "Created patched $iosver IPSW at: $iname"
-
-../restore_only.sh $iname 
+echo "Created patched IPSW at: $iname"
