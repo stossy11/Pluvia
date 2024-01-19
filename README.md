@@ -1,26 +1,29 @@
 Important Notice
 ================
 
-Development of Pluvia is now discontinued, and no support is available for it. It is not compatible with macOS 12.3 Monterey or newer versions.
+You need Python 2 that you can get from here https://www.python.org/downloads/release/python-2718/ 
 
-What is Pluvia?
+
+What is Pluviana?
 ===============
-Pluvia allows you to untethered downgrade your iPhone 4 without SHSH blobs!
+Pluviana allows you to untethered downgrade your iPhone 4 without SHSH blobs and it is an newly maintained version of Pluvia!
 
 It uses the iOS 7.1.2 iBoot exploit "De Rebus Antiquis" by @xerub and @dora2-iOS.
 
 Limitations
 ===========
-* Only for Mac!
-* Only supports iPhone3,1.
+* Needs Python 2
+* Only for Mac (macOS 10.11+ could work with 10.9+)!
+* Only supports iPhone3,1 (iPhone 4 GSM).
   - Support for iPhone3,2 and 3,3 is not easily possible because the iBoot exploit utilized by Pluvia has not been ported to those devices, and there is almost no documentation of how to do so.
 * Only supports iOS 5.1.1 (9B206), 6.x, and 7.x.
 * Can only jailbreak iOS 5.1.1 and 6.1.3
 
 **NOTE: 8GB iPhone 4's that shipped with iOS 6 can only run iOS 6 and newer, NOT iOS 4 or 5. This almost certainly can't be fixed.**
 
-How to use Pluvia
+How to use Pluviana
 =================
+
 1) Creating the patched IPSW
 
 Run ./make_ipsw.sh <Input_IPSW> jailbreak (if you want to jailbreak)
@@ -37,6 +40,7 @@ Wait for that to complete.
 
 When your phone reboots the Apple logo should blink and then it will boot the older iOS!
 
+
 Getting out of recovery mode after restoring to stock iOS
 =========================================================
 Run ./make_ipsw.sh <Any_Supported_Input_IPSW> reset
@@ -47,6 +51,10 @@ Run ./restore.sh <Reset_NVRAM_IPSW>
 
 Credits
 =======
+@stossy11 (me) for fixing this project for macOS 12.3+
+
+@parrotgeek1 for the base of this project named Pluvia.
+
 @xerub for De Rebus Antiquis iBoot exploit
 
 @dora2-iOS for ramdiskH.dmg, part of the partitioning script in the ramdisk, the binaries in the ramdisk (which are likely from Cydia packages), and the firmware bundles
@@ -77,9 +85,9 @@ libusb and pyusb
 
 Licensing notes
 ===============
-The ParrotGeek Software logo shown during the restore process is NOT licensed under the GPL and must be removed in any publicly released modifications of this project.
+The Stossy11  logo shown during the restore process is The Stossy11 logo shown during the restore process is inspired by the game "Minecraft" and is NOT licensed under the GPL license so in any modified release of this you must remove the logo and if Microsoft want to take it down they can.
 
-Furthermore, any publicly released modifications of this project must not use the word Pluvia anywhere in their name, or purport to be endorsed by ParrotGeek Software.
+Furthermore, any publicly released modifications of this project must not use the word Pluviana anywhere in their name, or purport to be endorsed by Stossy11.
 
 The code and files created by @dora2-iOS are licensed under the GPLv3 or the MIT License, and were present in commit 316d2cdc5351c918e9db9650247b91632af3f11f of https://github.com/dora2-iOS/ch3rryflower, and commits 06262f41d0677feec0f03ff2f0496d63898a346f and 26cb118bde7ad0198df08a2b0af9f319c0de511c of https://github.com/dora2-iOS/s0meiyoshino, which no longer exist publicly.
 
