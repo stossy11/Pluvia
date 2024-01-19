@@ -88,6 +88,6 @@ if [ ! -f "$1" ] ; then
 fi
 
 cd "$(dirname "$0")"
-for i in scripts/*.sh; do
+for i in scripts_old/*.sh; do
 	bash -e $i "`realpath "$1"`" "$2" || exit $?
 done
