@@ -89,8 +89,5 @@ fi
 
 cd "$(dirname "$0")"
 for i in scripts/*.sh; do
-	bash -e $i "`realpath "$1"`" "$2"
+	bash -e $i "`realpath "$1"`" "$2" || exit $?
 done
-
-./restore_only.sh $iname 
-exit $?
