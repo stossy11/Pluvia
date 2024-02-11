@@ -23,7 +23,7 @@ Limitations
 
 **NOTE: 8GB iPhone 4's that shipped with iOS 6 can only run iOS 6 and newer, NOT iOS 4 or 5. This almost certainly can't be fixed.**
 
-How to use Pluviana **CHECK RELEASES YOU DONT NEED TO USE THE OTHER SCRIPTS UNLESS YOU WANT TO**
+How to use Pluviana **CHECK RELEASES YOU DONT NEED TO USE THESE SCRIPTS UNLESS YOU WANT TO**
 =================
 
 Connect your iPhone 4 and put it in DFU mode.
