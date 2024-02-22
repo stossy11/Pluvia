@@ -100,7 +100,7 @@ libusb and pyusb
 
 Licensing notes
 ===============
-The Stossy11  logo shown during the restore process is The Stossy11 logo shown during the restore process is inspired by the game "Minecraft" and is NOT licensed under the GPL license so in any modified release of this you must remove the logo and if Microsoft want to take it down they can.
+The Stossy11 logo shown during the restore process is inspired by the game "Minecraft" and is NOT licensed under the GPL license so in any modified release of this you must remove the logo and if Microsoft want to take it down they can.
 
 Furthermore, any publicly released modifications of this project must not use the word Pluviana anywhere in their name, or purport to be endorsed by Stossy11.
 
