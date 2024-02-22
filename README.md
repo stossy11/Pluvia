@@ -66,7 +66,7 @@ Run ./restore.sh <Any_Supported_Input_IPSW> reset
 
 Credits
 =======
-@stossy11 (me) for fixing this project for macOS 12.3+ and making an easer install process (soon to be app)
+@stossy11 (me) for fixing this project for macOS 12.3+ and making an easer install process now officially an app
 
 @parrotgeek1 for the base of this project named Pluvia.
 
